@@ -1,0 +1,127 @@
+#heading1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: cursive;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*This is where fun stuff begins*/
+#col_space {
+  border: 1px solid black;
+  background-color: #A9D0F5;
+  width: 95%;
+  height: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  color: black;
+  text-align: right;
+}
+
+#col_title {
+  font-weight: bold;
+  position: relative;
+  bottom: 1px;
+  left: 1px;
+  margin-left: auto;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 175px;
+  border: 1px solid black;
+  text-align: center;
+  font-size:15px;
+  font-family: cursive;
+}
+
+#content {
+  padding: 1px;
+  margin-top: 6px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  text-align: left;
+  height: 75px;
+  overflow: scroll;
+}
+
+.title1 {
+  background-color: #F5A9F2;
+  color: black;
+}
+
+.title2 {
+  background-color: #D0A9F5;
+}
+
+.title3 {
+  background-color: #E2A9F3;
+}
+
+.row {
+  width: 100%;
+}
+/*This is for mobile view*/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+/*This is for tablet view*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {  
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+}
+
+/*This is for desktop view*/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+/*This is for mobile view*/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+/*This is for tablet view*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {  
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+}
+
+/*This is for desktop view*/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
